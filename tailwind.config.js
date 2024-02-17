@@ -22,6 +22,9 @@ module.exports = {
         'secondary-text-color': '#4D5F71',
         'warning-text-color': '#FF3E1D',
         'information-text-color': '#71DD37'
+      },
+      borderColor: {
+        'border-primary': '#D9D9D9'
       }
     },
   },
