@@ -69,14 +69,15 @@
                     </a>
                 </li>
                 <li>
-                    <a href="Tugas.html" class="flex items-center p-2 rounded-lg text-primary-text-color hover:bg-bg-link-button hover:text-white group">
+                    <a href="Tugas.html"
+                        class="flex items-center p-2 rounded-lg text-primary-text-color hover:bg-bg-link-button hover:text-white group">
                         <span class="bi bi-menu-button-wide"></span>
                         <span class="ms-3">Tugas</span>
                     </a>
                 </li>
                 <li>
                     <a href="Materi.html"
-                        class="flex items-center p-2 text-white rounded-lg bg-bg-link-button group">
+                        class="flex items-center p-2 rounded-lg text-primary-text-color hover:bg-bg-link-button hover:text-white group">
                         <span class="bi bi-journal-bookmark"></span>
                         <span class="ms-3">Materi</span>
                     </a>
@@ -90,7 +91,7 @@
                 </li>
                 <li>
                     <a href="Mapelkelas.html"
-                        class="flex items-center p-2 rounded-lg text-primary-text-color hover:bg-bg-link-button hover:text-white group">
+                        class="flex items-center p-2 text-white rounded-lg bg-bg-link-button group">
                         <span class="bi bi-mortarboard"></span>
                         <span class="ms-3">Mapel Kelas</span>
                     </a>
@@ -133,7 +134,7 @@
             <div class="flex justify-between">
                 <div class="flex gap-4 text-primary-text-color">
                     <div class="">
-                        Materi
+                        Materi Pelajaran Kelas
                     </div>
                     <div>
                         /
@@ -150,113 +151,75 @@
     </div>
     <div class="p-4 sm:ml-64">
         <div class="px-4 py-2 bg-bg-header text-secondary-text-color rounded-t-md">
-            Data Tabel Materi
+            <div class="flex justify-between">
+                <div>
+                    Data Mapel Kelas
+                </div>
+                <div>
+                
+                </div>
+            </div>
         </div>
         <div class="px-4 py-4 bg-bgcolorsecondary rounded-b-md">
-            <div class="flex flex-wrap gap-2">
-                <a href="Materi-add-materi-tertulis.html">
-                    <button class="px-2 py-1 mb-4 text-white rounded-md bg-bg-biru-button"><span
-                            class="bi bi-plus"></span>Tambah Materi Tertulis</button>
-                </a>
-                <a href="Materi-add-file.html">
-                    <button class="px-2 py-1 mb-4 text-white rounded-md bg-bg-biru-button"><span
-                            class="bi bi-plus"></span>Tambah Materi File</button>
-                </a>
+            <div class="flex flex-col">
+                <div class="px-2 py-2 rounded-md bg-bg-header text-secondary-text-color">
+                    Kelas X PPLG
+                </div>
+                <div class="px-4 mt-4 ml-10 bg-bg-header rounded-t-md text-secondary-text-color">
+                    <div class="flex items-center justify-between my-4">
+                        <div>
+                            X PPLG 1
+                        </div>
+                        <div>
+                            <a href="Mapelkelas-atur-materi.html" class="px-2 py-2 text-white rounded-md bg-bg-hijau-button"><span
+                                    class="bi bi-pencil-square"></span>Atur Mata Pelajaran</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-4 ml-10 border bg-bgcolorsecondary rounded-b-md">
+                    <div>
+                        <div class="flex justify-between gap-4 my-4 font-light text-primary-text-color">
+                            <h3 class="">Bahasa Indonesia</h3>
+                            <button class="px-2 py-1 text-white bg-red-600 rounded-md" data-modal-target="modal-nonaktifkan-materi" data-modal-toggle="modal-nonaktifkan-materi"><span class="bi bi-x"></span> Non
+                                Aktifkan</button>
+                        </div>
+                        <div class="flex justify-between gap-4 my-4 font-light text-primary-text-color">
+                            <h3 class="">Bahasa Inggris</h3>
+                            <button data-modal-target="modal-nonaktifkan-materi" data-modal-toggle="modal-nonaktifkan-materi" class="px-2 py-1 text-white bg-red-600 rounded-md"><span class="bi bi-x"></span> Non
+                                Aktifkan</button>
+                        </div>
+                        <div class="flex justify-between gap-4 my-4 font-light text-primary-text-color">
+                            <h3 class="">Produktif Web</h3>
+                            <button data-modal-target="modal-aktifkan-materi" data-modal-toggle="modal-aktifkan-materi" class="px-2 py-1 text-white rounded-md bg-bg-hijau-button"><span
+                                    class="bi bi-check"></span> Aktifkan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 mt-4 rounded-md bg-bg-header text-secondary-text-color">
+                    Kelas XI Akuntansi 
+                </div>
+                <div class="px-4 mt-4 ml-10 bg-bg-header rounded-t-md text-secondary-text-color">
+                    <div class="flex items-center justify-between my-4">
+                        <div>
+                            XI Akuntansi 1
+                        </div>
+                        <div>
+                            <a href="Mapelkelas-atur-materi.html" class="px-2 py-2 text-white rounded-md bg-bg-hijau-button"><span
+                                    class="bi bi-pencil-square"></span>Atur Mata Pelajaran</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-4 my-4 ml-10 border bg-bgcolorsecondary rounded-b-md">
+                    <div>
+
+                    </div>
+                </div>
             </div>
-            <table id="example" class="table-hover">
-                    <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Informasi Materi</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>
-                                <div class="flex items-center justify-between">
-                                    <div class="flex flex-col font-light text-primary-text-color">
-                                        <div class="">
-                                            <span class="font-semibold text-yellow-500">Percobaan Materi Tertulis</span>
-                                        </div>
-                                        <div class="flex gap-2">
-                                            <h3 class="px-1 text-white bg-bg-kuning-button">Terbit</h3>
-                                            <h3>/</h3>
-                                            <h3 class="px-1 text-white bg-bg-hijau-button">Tertulis</h3>
-                                            <h3>/</h3>
-                                            <h3 class="">Bahasa Indonesia</h3>
-                                            <h3>/</h3>
-                                            <h3>Kelas XI, Kelas XI, Kelas XII</h3>
-                                        </div>
-                                        <div class="flex gap-2">
-                                            <h3 class="font-semibold">Pembuat : Maman Suparman, S.T</h3>
-                                            <h3>/</h3>
-                                            <h3>Dibaca 2 Kali</h3>
-                                            <h3>/</h3>
-                                            <h3>0 Komentar</h3>
-                                        </div>
-                                    </div>
-                                    <div class="flex gap-[2px] items-center">
-                                        <div>
-                                            <a href="Materi-detail-tertulis.html" class="px-2 py-1 text-white rounded-sm bg-bg-biru-button"><span class="bi bi-zoom-in"></span> Detail</a>
-                                        </div>
-                                        <div>
-                                            <a href="Materi-add-materi-tertulis.html" class="px-2 py-1 rounded-sm bg-bg-header "><span class="bi bi-zoom-in"></span> Edit</a>
-                                        </div>
-                                        <div>
-                                            <button class="px-2 py-1 text-white bg-red-700 rounded-sm " data-modal-target="modal-hapus-materi" data-modal-toggle="modal-hapus-materi"><span class="bi bi-trash3"></span> Hapus</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>
-                                <div class="flex items-center justify-between">
-                                    <div class="flex flex-col font-light text-primary-text-color">
-                                        <div class="">
-                                            <span class="font-semibold text-yellow-500">Percobaan Materi File</span>
-                                        </div>
-                                        <div class="flex gap-2">
-                                            <h3 class="px-1 text-white bg-bg-kuning-button">Terbit</h3>
-                                            <h3>/</h3>
-                                            <h3 class="px-1 text-white bg-bg-hijau-button">Tertulis</h3>
-                                            <h3>/</h3>
-                                            <h3 class="">Bahasa Indonesia</h3>
-                                            <h3>/</h3>
-                                            <h3>Kelas XI, Kelas XI, Kelas XII</h3>
-                                        </div>
-                                        <div class="flex gap-2">
-                                            <h3 class="font-semibold">Pembuat : Maman Suparman, S.T</h3>
-                                            <h3>/</h3>
-                                            <h3>Didownload 2 Kali</h3>
-                                            <h3>/</h3>
-                                            <h3>0 Komentar</h3>
-                                        </div>
-                                    </div>
-                                    <div class="flex gap-[2px] items-center">
-                                        <div>
-                                            <a href="Materi-detail-file.html" class="px-2 py-1 text-white rounded-sm bg-bg-biru-button"><span class="bi bi-zoom-in"></span> Detail</a>
-                                        </div>
-                                        <div>
-                                            <a href="Mater-edit-file.html" class="px-2 py-1 rounded-sm bg-bg-header "><span class="bi bi-zoom-in"></span> Edit</a>
-                                        </div>
-                                        <div>
-                                            <button class="px-2 py-1 text-white bg-red-700 rounded-sm " data-modal-target="modal-hapus-materi" data-modal-toggle="modal-hapus-materi"><span class="bi bi-trash3"></span> Hapus</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>                
-                    </tbody>
-            </table>
         </div>
     </div>
     <!-- End Content -->
-    <!-- Modal Hapus Materi -->
-    <!-- Modal Delete Jawaban-->
-    <div id="modal-hapus-materi" tabindex="-1" aria-hidden="true"
+    <!-- Modal NonAktifkan Materi-->
+    <div id="modal-nonaktifkan-materi" tabindex="-1" aria-hidden="true"
         class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
         <div class="relative w-full max-w-2xl max-h-full p-4">
             <!-- Modal content -->
@@ -264,11 +227,11 @@
                 <!-- Modal header -->
                 <div class="flex items-center justify-between p-4 border-b rounded-t md:p-5 ">
                     <h3 class="text-xl font-semibold text-gray-900 ">
-                        Hapus Materi
+                        Non Aktifkan
                     </h3>
                     <button type="button"
                         class="inline-flex items-center justify-center w-8 h-8 text-sm text-gray-400 bg-transparent rounded-lg hover:bg-gray-200 hover:text-gray-900 ms-auto "
-                        data-modal-hide="modal-hapus-materi">
+                        data-modal-hide="modal-nonaktifkan-materi">
                         <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 14 14">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -281,23 +244,64 @@
                 <div class="p-4 space-y-4 md:p-5">
                     <div class="flex items-center gap-5">
                         <h3>
-                            Apakah anda yakin akan menghapus Materi tersebut.?
+                            Apakah anda yakin akan menonaktifkan materi Mapel Tersebut.?
                         </h3>
                     </div>
                 </div>
                 <!-- Modal footer -->
                 <div class="flex items-center p-4 border-t border-gray-200 rounded-b md:p-5 ">
-                    <button data-modal-hide="modal-hapus-materi" type="button"
+                    <button data-modal-hide="modal-nonaktifkan-materi" type="button"
                         class="bg-blue-800 text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">
                         Ya</button>
-                    <button data-modal-hide="modal-hapus-materi" type="button"
+                    <button data-modal-hide="modal-nonaktifkan-materi" type="button"
                         class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100">Keluar</button>
                 </div>
             </div>
         </div>
     </div>
-<!-- End Modal Delete Jawaban -->
-    <!-- End Modal Hapus Materi -->
+    <!-- End NonModal Aktifkan Materi -->
+    <!-- Modal Aktifkan Materi-->
+    <div id="modal-aktifkan-materi" tabindex="-1" aria-hidden="true"
+        class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+        <div class="relative w-full max-w-2xl max-h-full p-4">
+            <!-- Modal content -->
+            <div class="relative bg-white rounded-lg shadow ">
+                <!-- Modal header -->
+                <div class="flex items-center justify-between p-4 border-b rounded-t md:p-5 ">
+                    <h3 class="text-xl font-semibold text-gray-900 ">
+                        Aktifkan
+                    </h3>
+                    <button type="button"
+                        class="inline-flex items-center justify-center w-8 h-8 text-sm text-gray-400 bg-transparent rounded-lg hover:bg-gray-200 hover:text-gray-900 ms-auto "
+                        data-modal-hide="modal-aktifkan-materi">
+                        <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 14 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+                        </svg>
+                        <span class="sr-only">Close modal</span>
+                    </button>
+                </div>
+                <!-- Modal body -->
+                <div class="p-4 space-y-4 md:p-5">
+                    <div class="flex items-center gap-5">
+                        <h3>
+                            Apakah anda yakin akan mengaktifkan materi Mapel Tersebut.?
+                        </h3>
+                    </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="flex items-center p-4 border-t border-gray-200 rounded-b md:p-5 ">
+                    <button data-modal-hide="modal-aktifkan-materi" type="button"
+                        class="bg-blue-800 text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">
+                        Ya</button>
+                    <button data-modal-hide="modal-aktifkan-materi" type="button"
+                        class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100">Keluar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Aktifkan Materi -->
     <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
     <script type="text/javascript">
         new DataTable("#example");
