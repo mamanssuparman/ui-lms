@@ -69,14 +69,14 @@
                     </a>
                 </li>
                 <li>
-                    <a href="Tugas.html" class="flex items-center p-2 text-white rounded-lg bg-bg-link-button group">
+                    <a href="Tugas.html" class="flex items-center p-2 rounded-lg text-primary-text-color hover:bg-bg-link-button hover:text-white group">
                         <span class="bi bi-menu-button-wide"></span>
                         <span class="ms-3">Tugas</span>
                     </a>
                 </li>
                 <li>
                     <a href="Materi.html"
-                        class="flex items-center p-2 rounded-lg text-primary-text-color hover:bg-bg-link-button hover:text-white group">
+                        class="flex items-center p-2 text-white rounded-lg bg-bg-link-button group">
                         <span class="bi bi-journal-bookmark"></span>
                         <span class="ms-3">Materi</span>
                     </a>
@@ -133,13 +133,13 @@
             <div class="flex justify-between">
                 <div class="flex gap-4 text-primary-text-color">
                     <div class="">
-                        Tugas
+                        Materi
                     </div>
                     <div>
                         /
                     </div>
                     <div>
-                        Index
+                        Detail
                     </div>
                 </div>
                 <div class="w-[30px]">
@@ -150,104 +150,99 @@
     </div>
     <div class="p-4 sm:ml-64">
         <div class="px-4 py-2 bg-bg-header text-secondary-text-color rounded-t-md">
-            Data Tabel Tugas
+            <div class="flex items-center justify-between">
+                <h3>Materi Detail</h3> 
+                <a href="Materi.html" class="px-4 py-1 text-white rounded-sm bg-bg-kuning-button"><span class="bi bi-backspace"></span> Kembali</a>
+            </div>
         </div>
         <div class="px-4 py-4 bg-bgcolorsecondary rounded-b-md">
-            <div class="flex flex-wrap gap-2">
-                <a href="Tugas-add-ganda.html">
-                    <button class="px-2 py-1 mb-4 text-white rounded-md bg-bg-biru-button"><span
-                            class="bi bi-plus"></span>Tugas Ganda</button>
-                </a>
-                <a href="Tugas-add-essay.html">
-                    <button class="px-2 py-1 mb-4 text-white rounded-md bg-bg-biru-button"><span
-                            class="bi bi-plus"></span>Tugas Essay</button>
-                </a>
-                <a href="Tugas-add-upload.html">
-                    <button class="px-2 py-1 mb-4 text-white rounded-md bg-bg-biru-button"><span
-                            class="bi bi-plus"></span>Tugas Upload</button>
-                </a>
+            <div class="flex flex-col gap-2 font-light text-primary-text-color">
+                <div>
+                    <h3 class="text-xl">Judul Materi Tertulis</h3>
+                </div>
+                <div class="flex gap-5 text-sm font-light">
+                    <h3>Bahasa Indonesia,</h3>
+                    <h3>Kelas XII, Kelas XI,</h3>
+                    <h3>Diposting Oleh : Maman Suparman, S.T</h3>
+                    <h3>17 Februari 2024</h3>
+                    <h3>Dibaca 2 Kali</h3>
+                    <h3>0 Komentar</h3>
+                </div>
+                <hr>
+                <div>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rutrum porttitor elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac dictum arcu. Nam in ante dolor. Nullam quis urna lectus. Phasellus volutpat augue faucibus, rutrum nisl ut, posuere elit. Ut vulputate efficitur nibh non scelerisque. Mauris suscipit pulvinar sem, posuere volutpat tellus efficitur in. Pellentesque id eros pellentesque, malesuada eros et, venenatis nisi. Etiam quis orci lacus. Nulla vehicula faucibus dolor, sed bibendum massa volutpat tincidunt. Mauris consequat sem quis felis vestibulum, a elementum sapien imperdiet. Quisque ultrices dui sed erat iaculis finibus. In cursus pellentesque nunc, vel vulputate velit pharetra vel. Aliquam ultrices eget odio ac pulvinar.</p>
+                    
+                    <p>Quisque libero ante, euismod eget nulla vel, lobortis consectetur eros. Etiam vel ipsum quis odio auctor ullamcorper eget id nulla. Phasellus dignissim molestie mi eget molestie. Phasellus eu purus ultrices, vulputate nibh vel, sagittis nulla. Donec venenatis porta nunc, sed finibus orci mattis at. Praesent in egestas nunc. Cras commodo, risus scelerisque accumsan suscipit, ex ex efficitur velit, sit amet lobortis eros purus in elit. Duis ut tortor eget leo blandit commodo quis vel turpis. Duis ultricies odio iaculis sodales tincidunt. Vestibulum nunc orci, varius at odio non, consectetur tempor tortor. Praesent consectetur scelerisque egestas. Integer sit amet dui sagittis, facilisis justo nec, rhoncus eros. Nam laoreet libero at turpis commodo dignissim. Vivamus tempus varius odio, vitae pulvinar diam accumsan non. Ut augue ligula, dictum ac dapibus nec, sollicitudin id quam. Etiam semper scelerisque metus, sed congue arcu vestibulum eget.</p>
+                </div>
+                <div>
+                    <hr>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="bi bi-pencil-fill"></span>
+                    <h3 class="font-semibold">Tulis Komentar</h3>
+                </div>
+                <div class="">
+                    <textarea name="" id="" cols="30" rows="10" class="w-full h-20 rounded-md border-border-primary"></textarea>
+                </div>
+                <div class="flex justify-end">
+                    <button class="px-4 py-1 text-white rounded-md bg-bg-biru-button"><span class="bi bi-telegram"></span> Post Komentar</button>
+                </div>
             </div>
-            <table id="example" class="w-full table-hover">
-                <thead>
-                    <tr>
-                        <th>No</th>
-                        <th>Informasi Tugas</th>
-                        <th>Type Tugas</th>
-                        <th></th>
-                    </tr>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>    
-                            <div class="flex flex-col">
-                                <div class="font-semibold text-yellow-400">Tugas Produktif PPLG 1</div>
-                                <div class="text-xs">Produktif Web Dasar, Kelas XI PPLG 1, 60 Menit</div>
-                                <div class="text-xs">Pembuat : Maman Suparman, S.T 15 Februari 2024</div>
-                            </div>
-                        </td>
-                        <td>
-                            <div>
-                                <span class="px-4 text-white bg-green-600 rounded-full">Ganda</span>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="flex justify-end font-light gap-[2px]">
-                                <a href="Tugas-add-soal-ganda.html" class="px-2 text-white rounded-sm bg-bg-biru-button"><span class="bi bi-menu-button-wide"></span> Soal</a>
-                                <a href="" class="px-2 text-white bg-green-600 rounded-sm"><span class="bi bi-check"></span> Terbitkan</a>
-                                <a href="Tugas-add-ganda.html" class="px-2 text-white bg-gray-400 rounded-sm"><span class="bi bi-pencil-square"></span> Edit</a>
-                                <a href="Tugas-ganda-lihat-nilai.html" class="px-2 text-white rounded-sm bg-cyan-500"><span class="bi bi-eye-fill"></span> Lihat Nilai</a>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>    
-                            <div class="flex flex-col">
-                                <div class="font-semibold text-yellow-400">Tugas Produktif PPLG 2</div>
-                                <div class="text-xs">Produktif Web Dasar, Kelas XI PPLG 1, 60 Menit</div>
-                                <div class="text-xs">Pembuat : Maman Suparman, S.T 15 Februari 2024</div>
-                            </div>
-                        </td>
-                        <td>
-                            <div>
-                                <span class="px-4 text-white rounded-full bg-bg-biru-button">Essay</span>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="flex justify-end font-light gap-[2px]">
-                                <a href="Tugas-add-soal-essay.html" class="px-2 text-white rounded-sm bg-bg-biru-button"><span class="bi bi-menu-button-wide"></span> Soal</a>
-                                <a href="" class="px-2 text-white bg-red-800 rounded-sm"><span class="bi bi-minus-sm"></span> Tutup</a>
-                                <a href="Tugas-add-essay.html" class="px-2 text-white bg-gray-400 rounded-sm"><span class="bi bi-pencil-square"></span> Edit</a>
-                                <a href="Tugas-essay-lihat-nilai.html" class="px-2 text-white rounded-sm bg-cyan-500"><span class="bi bi-card-checklist"></span> Koreksi</a>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>    
-                            <div class="flex flex-col">
-                                <div class="font-semibold text-yellow-400">Tugas Produktif PPLG 3</div>
-                                <div class="text-xs">Produktif Web Dasar, Kelas XI PPLG 1, 60 Menit</div>
-                                <div class="text-xs">Pembuat : Maman Suparman, S.T 15 Februari 2024</div>
-                            </div>
-                        </td>
-                        <td>
-                            <div>
-                                <span class="px-4 text-white bg-gray-400 rounded-full">Upload</span>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="flex justify-end font-light gap-[2px]">
-                                <a href="" class="px-2 text-white bg-red-800 rounded-sm"><span class="bi bi-minus-sm"></span> Tutup</a>
-                                <a href="Tugas-add-upload.html" class="px-2 text-white bg-gray-400 rounded-sm"><span class="bi bi-pencil-square"></span> Edit</a>
-                                <a href="Tugas-upload-lihat-nilai.html" class="px-2 text-white rounded-sm bg-cyan-500"><span class="bi bi-card-checklist"></span> Koreksi</a>
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-                </thead>
-
-            </table>
+            <div>
+                <div class="flex my-4">
+                    <div class="w-[200px]">
+                        <img src="/assets/User-kotak.png" alt="" class="w-8 h-8 overflow-hidden rounded-full">
+                    </div>
+                    <div class="flex flex-col font-light text-primary-text-color">
+                        <div class="">
+                            <h3 class="font-semibold">Aliyatunnisa</h3>
+                        </div>
+                        <div class="w-full">
+                            <p>
+                                Maecenas eu metus quis sapien porttitor suscipit. Mauris condimentum tincidunt lectus nec mattis. Vestibulum malesuada, metus in vulputate vulputate, velit neque euismod metus, et sollicitudin metus nunc nec odio. Aenean sit amet aliquam dui, id luctus lorem. Praesent ullamcorper tempus lorem, et auctor erat finibus in. Nunc viverra lorem tempor nisl egestas, sit amet volutpat purus laoreet. Praesent eu dolor vehicula, euismod nibh vel, semper quam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="flex my-4">
+                    <div class="w-[200px]">
+                        <img src="/assets/User-kotak.png" alt="" class="w-8 h-8 overflow-hidden rounded-full">
+                    </div>
+                    <div class="flex flex-col font-light text-primary-text-color">
+                        <div class="">
+                            <h3 class="font-semibold">Aliyatunnisa</h3>
+                        </div>
+                        <div class="w-full">
+                            <p>
+                                Maecenas eu metus quis sapien porttitor suscipit. Mauris condimentum tincidunt lectus nec mattis. Vestibulum malesuada, metus in vulputate vulputate, velit neque euismod metus, et sollicitudin metus nunc nec odio. Aenean sit amet aliquam dui, id luctus lorem. Praesent ullamcorper tempus lorem, et auctor erat finibus in. Nunc viverra lorem tempor nisl egestas, sit amet volutpat purus laoreet. Praesent eu dolor vehicula, euismod nibh vel, semper quam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="flex my-4">
+                    <div class="w-[200px]">
+                        <img src="/assets/User-kotak.png" alt="" class="w-8 h-8 overflow-hidden rounded-full">
+                    </div>
+                    <div class="flex flex-col font-light text-primary-text-color">
+                        <div class="">
+                            <h3 class="font-semibold">Aliyatunnisa</h3>
+                        </div>
+                        <div class="w-full">
+                            <p>
+                                Maecenas eu metus quis sapien porttitor suscipit. Mauris condimentum tincidunt lectus nec mattis. Vestibulum malesuada, metus in vulputate vulputate, velit neque euismod metus, et sollicitudin metus nunc nec odio. Aenean sit amet aliquam dui, id luctus lorem. Praesent ullamcorper tempus lorem, et auctor erat finibus in. Nunc viverra lorem tempor nisl egestas, sit amet volutpat purus laoreet. Praesent eu dolor vehicula, euismod nibh vel, semper quam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="flex justify-center">
+                    <div class="text-blue-600">
+                        Load more comment
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- End Content -->
