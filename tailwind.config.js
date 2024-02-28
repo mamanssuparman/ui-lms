@@ -14,6 +14,7 @@ module.exports = {
         'bg-kuning-button': '#FFAB00',
         'bg-merah-button': '#FFAB00',
         'bg-green-button': '#29B7D3',
+        'bg-hijau-button': '#29B7D3',
         'bg-link-button': '#5255DA',
         'bg-header': '#D9D9D9'
       },
