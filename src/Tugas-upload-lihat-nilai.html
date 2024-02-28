@@ -139,7 +139,7 @@
                         /
                     </div>
                     <div>
-                        Index
+                        Lihat Nilai Upload
                     </div>
                 </div>
                 <div class="w-[30px]">
@@ -150,108 +150,126 @@
     </div>
     <div class="p-4 sm:ml-64">
         <div class="px-4 py-2 bg-bg-header text-secondary-text-color rounded-t-md">
-            Data Tabel Tugas
+            Data Tabel Tugas Upload
         </div>
         <div class="px-4 py-4 bg-bgcolorsecondary rounded-b-md">
-            <div class="flex flex-wrap gap-2">
-                <a href="Tugas-add-ganda.html">
-                    <button class="px-2 py-1 mb-4 text-white rounded-md bg-bg-biru-button"><span
-                            class="bi bi-plus"></span>Tugas Ganda</button>
-                </a>
-                <a href="Tugas-add-essay.html">
-                    <button class="px-2 py-1 mb-4 text-white rounded-md bg-bg-biru-button"><span
-                            class="bi bi-plus"></span>Tugas Essay</button>
-                </a>
-                <a href="Tugas-add-upload.html">
-                    <button class="px-2 py-1 mb-4 text-white rounded-md bg-bg-biru-button"><span
-                            class="bi bi-plus"></span>Tugas Upload</button>
-                </a>
+            <div class="flex flex-wrap justify-between mx-4">
+                <h3 class="font-semibold text-primary-text-color">Judul Tugas ABCDEFGHIJ</h3>
+                <button class="px-4 py-1 text-white bg-red-600 rounded-sm"> Tutup Ujian</button>
+            </div>
+            <div class="px-4 my-4 mt-4">
+                <table class="table font-light text-primary-text-color">
+                    <tr>
+                        <td class="w-1/2 font-semibold">Tipe Ujian</td>
+                        <td>Upload</td>
+                    </tr>
+                    <tr>
+                        <td class="w-1/2 font-semibold">Mata Pelajaran</td>
+                        <td>Bahasa Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td class="w-1/2 font-semibold">Kelas</td>
+                        <td>XII RPL 1, XII RPL 2</td>
+                    </tr>
+                    <tr>
+                        <td class="w-1/2 font-semibold">Keterangan</td>
+                        <td>Percobaan</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="mx-4 my-4">
+                <div class="flex flex-wrap gap-[2px]">
+                    <button id="dropdownCheckboxButton" data-dropdown-toggle="dropdownDefaultCheckbox"
+                        class="px-4 py-1 text-white rounded-sm bg-cyan-500"
+                        type="button">Print
+                    </button>
+                    <button class="px-4 py-1 text-white rounded-sm bg-cyan-500" id="dropdownExportExcel" data-dropdown-toggle="dropdownExportReportExcel">Export Excel</button>
+                </div>
             </div>
             <table id="example" class="w-full table-hover">
                 <thead>
                     <tr>
                         <th>No</th>
-                        <th>Informasi Tugas</th>
-                        <th>Type Tugas</th>
+                        <th>Siswa</th>
+                        <th>Kelas</th>
+                        <th>Nilai</th>
                         <th></th>
                     </tr>
+                </thead>
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>    
-                            <div class="flex flex-col">
-                                <div class="font-semibold text-yellow-400">Tugas Produktif PPLG 1</div>
-                                <div class="text-xs">Produktif Web Dasar, Kelas XI PPLG 1, 60 Menit</div>
-                                <div class="text-xs">Pembuat : Maman Suparman, S.T 15 Februari 2024</div>
+                        <td>
+                            <div class="flex items-center gap-4">
+                                <img src="/assets/User-kotak.png" alt="" class="w-10 h-10 overflow-hidden rounded-full">
+                                <h3 class="font-semibold text-primary-text-color">OmenArt Corp </h3>
                             </div>
+                        </td>
+                        <td>
+                            <div class="text-primary-text-color">XII RPL 1</div>
+                        </td>
+                        <td>
+                            <div class="text-primary-text-color">100</div>
                         </td>
                         <td>
                             <div>
-                                <span class="px-4 text-white bg-green-600 rounded-full">Ganda</span>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="flex justify-end font-light gap-[2px]">
-                                <a href="Tugas-add-soal-ganda.html" class="px-2 text-white rounded-sm bg-bg-biru-button"><span class="bi bi-menu-button-wide"></span> Soal</a>
-                                <a href="" class="px-2 text-white bg-green-600 rounded-sm"><span class="bi bi-check"></span> Terbitkan</a>
-                                <a href="Tugas-add-ganda.html" class="px-2 text-white bg-gray-400 rounded-sm"><span class="bi bi-pencil-square"></span> Edit</a>
-                                <a href="Tugas-ganda-lihat-nilai.html" class="px-2 text-white rounded-sm bg-cyan-500"><span class="bi bi-eye-fill"></span> Lihat Nilai</a>
+                                <a href="Tugas-upload-detail-jawaban.html" class="px-2 py-1 text-sm font-light text-white rounded-sm bg-cyan-500">Detail</a>
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>    
-                            <div class="flex flex-col">
-                                <div class="font-semibold text-yellow-400">Tugas Produktif PPLG 2</div>
-                                <div class="text-xs">Produktif Web Dasar, Kelas XI PPLG 1, 60 Menit</div>
-                                <div class="text-xs">Pembuat : Maman Suparman, S.T 15 Februari 2024</div>
+                        <td>
+                            <div class="flex items-center gap-4">
+                                <img src="/assets/User-kotak.png" alt="" class="w-10 h-10 overflow-hidden rounded-full">
+                                <h3 class="font-semibold text-primary-text-color">OmenArt Corp </h3>
                             </div>
+                        </td>
+                        <td>
+                            <div class="text-primary-text-color">XII RPL 1</div>
+                        </td>
+                        <td>
+                            <div class="text-primary-text-color">100</div>
                         </td>
                         <td>
                             <div>
-                                <span class="px-4 text-white rounded-full bg-bg-biru-button">Essay</span>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="flex justify-end font-light gap-[2px]">
-                                <a href="Tugas-add-soal-essay.html" class="px-2 text-white rounded-sm bg-bg-biru-button"><span class="bi bi-menu-button-wide"></span> Soal</a>
-                                <a href="" class="px-2 text-white bg-red-800 rounded-sm"><span class="bi bi-minus-sm"></span> Tutup</a>
-                                <a href="Tugas-add-essay.html" class="px-2 text-white bg-gray-400 rounded-sm"><span class="bi bi-pencil-square"></span> Edit</a>
-                                <a href="Tugas-essay-lihat-nilai.html" class="px-2 text-white rounded-sm bg-cyan-500"><span class="bi bi-card-checklist"></span> Koreksi</a>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>    
-                            <div class="flex flex-col">
-                                <div class="font-semibold text-yellow-400">Tugas Produktif PPLG 3</div>
-                                <div class="text-xs">Produktif Web Dasar, Kelas XI PPLG 1, 60 Menit</div>
-                                <div class="text-xs">Pembuat : Maman Suparman, S.T 15 Februari 2024</div>
-                            </div>
-                        </td>
-                        <td>
-                            <div>
-                                <span class="px-4 text-white bg-gray-400 rounded-full">Upload</span>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="flex justify-end font-light gap-[2px]">
-                                <a href="" class="px-2 text-white bg-red-800 rounded-sm"><span class="bi bi-minus-sm"></span> Tutup</a>
-                                <a href="Tugas-add-upload.html" class="px-2 text-white bg-gray-400 rounded-sm"><span class="bi bi-pencil-square"></span> Edit</a>
-                                <a href="Tugas-upload-lihat-nilai.html" class="px-2 text-white rounded-sm bg-cyan-500"><span class="bi bi-card-checklist"></span> Koreksi</a>
+                                <a href="Tugas-upload-detail-jawaban.html" class="px-2 py-1 text-sm font-light text-white rounded-sm bg-cyan-500">Detail</a>
                             </div>
                         </td>
                     </tr>
                 </tbody>
-                </thead>
-
             </table>
         </div>
     </div>
     <!-- End Content -->
-
+    <!-- Dropdown menu -->
+    <div id="dropdownDefaultCheckbox"
+        class="z-10 hidden w-48 px-4 py-2 bg-white divide-y divide-gray-100 rounded-lg shadow-md">
+        <div class="px-2 font-light">
+            <select name="" id="" class="w-full px-4 py-1 border-border-primary">
+                <option value="">XII RPL 1</option>
+                <option value="">XII RPL 2</option>
+            </select>
+        </div>
+        <div class="px-2">
+            <button class="px-2 py-1 my-2 text-white rounded-sm bg-bg-biru-button">Print</button>
+        </div>
+    </div>
+    <!-- End Drop Down menu Print -->
+    <!-- Dropdown menu Export Excel -->
+    <div id="dropdownExportReportExcel"
+        class="z-10 hidden w-48 px-4 py-2 bg-white divide-y divide-gray-100 rounded-lg shadow-md">
+        <div class="px-2 font-light">
+            <select name="" id="" class="w-full px-4 py-1 border-border-primary">
+                <option value="">XII RPL 1</option>
+                <option value="">XII RPL 2</option>
+            </select>
+        </div>
+        <div class="px-2">
+            <button class="px-2 py-1 my-2 text-white rounded-sm bg-bg-biru-button">Print</button>
+        </div>
+    </div>
+    <!-- End Drop Down menu Print -->
     <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
     <script type="text/javascript">
         new DataTable("#example");
